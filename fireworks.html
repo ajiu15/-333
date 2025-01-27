@@ -34,7 +34,16 @@
 </head>
 <body>
   <canvas id="fireworks"></canvas>
-  <img id="portrait" src="portrait.jpg" alt="人像照片">
+  <img id="portrait" src=# Save the uploaded image to include in the HTML file
+import shutil
+
+# Path to save the user's image
+image_path = "/mnt/data/portrait.jpg"
+
+# Save the uploaded image as 'portrait.jpg'
+shutil.copyfile("/mnt/data/83113FD2-8586-4006-94A7-0A7F8E658146.jpeg", image_path)
+
+image_path" alt="人像照片">
 
   <script>
     const canvas = document.getElementById("fireworks");
